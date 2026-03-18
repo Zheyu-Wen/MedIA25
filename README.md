@@ -46,7 +46,7 @@ The repository is organized as follows:
 
 ## Running the Code
 
-All local commands below assume execution from the root `MedIA2025_code` directory.
+All local commands below assume execution from the root `MedIA25` directory.
 
 ### Task 1: PET reconstruction.
 
@@ -54,7 +54,7 @@ All local commands below assume execution from the root `MedIA2025_code` directo
 python -u main_clinical.py --pat_ids 0 --role fitting --use_multiscan 0
 ```
 
-### Task 1: PET prediction
+### Task 2: PET prediction
 
 ```bash
 python -u main_clinical.py --pat_ids 0 --role extrap --use_multiscan 0
